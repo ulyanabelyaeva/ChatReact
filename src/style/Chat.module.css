@@ -1,0 +1,36 @@
+.chat{
+    display: flex;
+    height: 100%;
+}
+
+.chat_items_general{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.chat_dialogs{
+    width: 25%;
+    background-color: #F5F5F5;
+}
+
+.chat_window{
+    width: 85%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.menu button{
+    font-family: "Montserrat_Light";
+    color: #FFFFFF;
+    background-color: #515151;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.currectAuthUser{
+    background-color: #515151;
+    color: #FFFFFF;
+}

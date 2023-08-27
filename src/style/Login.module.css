@@ -1,0 +1,72 @@
+@import url(../style/font/Montserrat.css);
+
+.login_container{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.form{
+    background: #F5F5F5;
+    padding: 50px 50px;
+    border-radius: 15%;
+}
+.title{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #515151;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+form{
+    width: 25%;
+}
+
+input{
+    font-family: "Montserrat_Light";
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    font-size: 18px;
+}
+
+.login_link{
+    font-family: "Montserrat_Light";
+    color: #515151;
+    font-size: 18px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.form_btn{
+    text-align: center;
+}
+
+.btn{
+    font-family: "Montserrat_Light";
+    color: #FFFFFF;
+    background-color: #515151;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1710px){
+    form{
+        width: 30%;
+    }
+}

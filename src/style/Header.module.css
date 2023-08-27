@@ -1,0 +1,12 @@
+@import url(../style//font/Montserrat.css);
+
+.header{
+    background-color: #F5F5F5;
+    color: #515151;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    font-family: "Montserrat";
+    height: 10%;
+}

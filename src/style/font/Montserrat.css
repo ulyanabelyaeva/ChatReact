@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    src: local(""), url(./Montserrat/static/Montserrat-Medium.ttf) format("truetype");
+ }
+
+ @font-face {
+    font-family: "Montserrat_Light";
+    font-weight: 400;
+    src: local(""), url(./Montserrat/static/Montserrat-Light.ttf) format("truetype");
+ }
+
+ @font-face {
+   font-family: "Montserrat_Bold";
+   font-weight: 400;
+   src: local(""), url(./Montserrat/static/Montserrat-SemiBold.ttf) format("truetype");
+}
+ 
